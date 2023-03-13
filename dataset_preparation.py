@@ -60,6 +60,6 @@ def prepare_bmi_dataset():
 	
 
 if __name__ == "__main__":
-	# don't need to run prepare_bmi_dataset() because bmi data is stored in bmi.csv
+	# don't need to run prepare_bmi_dataset() again because bmi data is stored in bmi.csv
 	# prepare_bmi_dataset()
 	pass
