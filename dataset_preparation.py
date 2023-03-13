@@ -12,7 +12,7 @@ def random_bmi_generator():
 	return bmi
 
 
-def calculate_bmi():
+def prepare_bmi_dataset():
 	# read height and weight data
 	df = pd.read_csv("data/height_weight.csv")
 
@@ -60,4 +60,6 @@ def calculate_bmi():
 	
 
 if __name__ == "__main__":
-	calculate_bmi()
+	# don't need to run prepare_bmi_dataset() because bmi data is stored in bmi.csv
+	# prepare_bmi_dataset()
+	pass
