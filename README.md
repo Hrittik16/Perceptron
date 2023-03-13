@@ -1,6 +1,6 @@
-# Single Layer Perceptron
+# Multilayer Perceptron
 
-#### Building a simple single layer perceptron that can classify bmi of a person into healthy or unhealthy
+#### This is a simple multilayer perceptron that can classify bmi of a person into healthy or unhealthy
 
 ### BMI = Weight(Kgs) / Height<sup>2</sup>(m)
 
